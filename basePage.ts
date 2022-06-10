@@ -1,5 +1,6 @@
-import {Builder, By, 
-    Capabilities, until, 
+import{
+    Builder, By,
+    until, Capabilities,
     WebDriver, WebElement
 } from 'selenium-webdriver'
 
@@ -59,11 +60,5 @@ export class BasePage{
     async getAttribute(elementBy: By, attribute: string): Promise<string>{
         return (await this.getElement(elementBy)).getAttribute(attribute)
     }
-
-
-
-
-
-
 
 }

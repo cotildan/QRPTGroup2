@@ -1,5 +1,5 @@
 import { By, WebDriver } from "selenium-webdriver";
-import { BasePage } from "../practice/mainBase";
+import { BasePage } from "./basePage";
 
 export class Walmart extends BasePage{
     //searchBar: By = By.xpath('//input[@name="q"]')
